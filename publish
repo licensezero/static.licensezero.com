@@ -1,0 +1,1 @@
+rsync -a --delete $(git ls-files) licensezero.com:/var/www/static.licensezero.com/
