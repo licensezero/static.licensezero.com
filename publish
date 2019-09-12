@@ -1,1 +1,1 @@
-rsync -a --delete $(git ls-files) licensezero.com:/var/www/static.licensezero.com/
+rsync -a --delete $(git ls-files | fgrep -v "publish" | fgrep -v README.md) licensezero.com:/var/www/static.licensezero.com/
