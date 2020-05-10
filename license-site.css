@@ -176,10 +176,6 @@ table, pre {
   overflow-x: scroll;
 }
 
-#logo {
-  width: 10rem;
-}
-
 body > header {
   text-align: center;
 }
@@ -258,4 +254,18 @@ a.button:hover {
   background-color: #218838;
   border-color: #218838;
   color: white;
+}
+
+a[href] {
+  border-bottom: 1px dashed #999;
+  color: black;
+  text-decoration: none;
+}
+
+#logo {
+  border: none;
+}
+
+#logo img {
+  width: 10rem;
 }
